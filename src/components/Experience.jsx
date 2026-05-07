@@ -74,7 +74,7 @@ const Experience = ({ t }) => {
                   i % 2 === 0 ? 'md:text-right' : 'md:text-left'
                 }`}
               >
-                <span className="text-3xl sm:text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-zinc-800 tracking-tighter italic leading-none break-words">
+                <span className="text-3xl sm:text-4xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-zinc-600 tracking-tighter italic leading-none break-words">
                   {exp.year}
                 </span>
               </div>

@@ -99,7 +99,7 @@ const socialLinks = [
 ];
 
 const Contact = ({ t = defaultTranslations, waLink = "#" }) => {
-  const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${t.emailText}`;
+  const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=nandafitrohardiansyah2812@gmail.com&su=Halo nanda${t.emailText}`;
 
   return (
     <section

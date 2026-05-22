@@ -18,7 +18,7 @@ export default function Certificates({ t = {} }) {
     },
     {
       id: 2,
-      title: "Practical Office Advance",
+      title: "Computer Operation",
       issuer: "Badan Nasional Sertifikasi Profesi",
       date: "Jan 2024",
       image: certPOA

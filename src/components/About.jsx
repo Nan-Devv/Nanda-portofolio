@@ -15,18 +15,21 @@ const defaultTranslations = {
 const socialLinks = [
   {
     icon: <Instagram size={24} />,
-    href: "https://instagram.com/nandafitroh",
-    label: "Instagram"
+    href: "https://www.instagram.com/fitroh_ardiansyah/",
+    label: "Instagram",
+    color: "#E4405F"
   },
   {
     icon: <Github size={24} />,
-    href: "https://github.com/nandafitroh",
-    label: "GitHub"
+    href: "https://github.com/Nan-Devv",
+    label: "GitHub",
+    color: "#fff"
   },
   {
     icon: <Linkedin size={24} />,
-    href: "https://linkedin.com/in/nandafitroh",
-    label: "LinkedIn"
+    href: "https://www.linkedin.com/in/nanda-fitroh-ardiansyah-79a1a4365/",
+    label: "LinkedIn",
+    color: "#0A66C2"
   }
 ];
 
@@ -113,20 +116,23 @@ const About = ({ t = defaultTranslations }) => {
               ))}
             </div>
 
-            {/* Social Media Links */}
-            <div className="mt-10 md:mt-16 flex justify-center lg:justify-start gap-6 md:gap-8 text-zinc-500">
-              {socialLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-purple-500 transition-all hover:scale-110 drop-shadow-[0_0_8px_rgba(168,85,247,0)] hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.5)]"
-                >
-                  {link.icon}
-                </a>
-              ))}
-            </div>
+            {/* Social Media */}
+              <div className="flex justify-center gap-8 md:gap-12 mt-10">
+               {socialLinks.map((link) => (
+              <motion.a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ y: -4, color: link.color }}
+                className="text-zinc-600 transition-all duration-300"
+                title={link.label}
+              >
+                {link.icon}
+              </motion.a>
+            ))}
+          </div>
+            
           </div>
         </div>
       </div>

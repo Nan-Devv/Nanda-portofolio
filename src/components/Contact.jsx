@@ -80,19 +80,19 @@ const defaultTranslations = {
 const socialLinks = [
   {
     icon: <Instagram size={22} />,
-    href: "https://instagram.com/nandafitroh",
+    href: "https://www.instagram.com/fitroh_ardiansyah/",
     label: "Instagram",
     color: "#E4405F"
   },
   {
     icon: <Github size={22} />,
-    href: "https://github.com/nandafitroh",
+    href: "https://github.com/Nan-Devv",
     label: "GitHub",
     color: "#fff"
   },
   {
     icon: <Linkedin size={22} />,
-    href: "https://linkedin.com/in/nandafitroh",
+    href: "https://www.linkedin.com/in/nanda-fitroh-ardiansyah-79a1a4365/",
     label: "LinkedIn",
     color: "#0A66C2"
   }
